@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "RemakeContraintsController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (nonatomic, strong) NSArray *controllers;
+@property (nonatomic, strong) UITableView *tableView;
+
 
 @end
 
@@ -17,13 +22,38 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView = [[UITableView alloc] init];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(self.view);
+    }];
+
+    self.controllers = @[[[RemakeContraintsController alloc]initWithTitle:@"动画重新添加约束"],];
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *kCellIdentifier = @"CellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];
+    }
     
-
+    UIViewController *viewController = self.controllers[indexPath.row];
+    cell.textLabel.text = viewController.title;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    return cell;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.controllers.count;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    UIViewController *viewController = self.controllers[indexPath.row];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
 
 @end

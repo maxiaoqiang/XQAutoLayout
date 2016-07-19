@@ -14,6 +14,8 @@
 		FE253C591D3DB8EF005E6390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE253C571D3DB8EF005E6390 /* Main.storyboard */; };
 		FE253C5B1D3DB8EF005E6390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE253C5A1D3DB8EF005E6390 /* Assets.xcassets */; };
 		FE253C5E1D3DB8EF005E6390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE253C5C1D3DB8EF005E6390 /* LaunchScreen.storyboard */; };
+		FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C671D3DCCBD005E6390 /* XQBaseController.m */; };
+		FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,11 @@
 		FE253C5A1D3DB8EF005E6390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE253C5D1D3DB8EF005E6390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE253C5F1D3DB8EF005E6390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE253C651D3DCBC3005E6390 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FE253C661D3DCCBD005E6390 /* XQBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQBaseController.h; sourceTree = "<group>"; };
+		FE253C671D3DCCBD005E6390 /* XQBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBaseController.m; sourceTree = "<group>"; };
+		FE253C6A1D3DCEEF005E6390 /* RemakeContraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemakeContraintsController.h; sourceTree = "<group>"; };
+		FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemakeContraintsController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +89,14 @@
 		FE253C4D1D3DB8EF005E6390 /* XQAuto */ = {
 			isa = PBXGroup;
 			children = (
+				FE253C691D3DCE63005E6390 /* Test */,
 				FE253C511D3DB8EF005E6390 /* AppDelegate.h */,
 				FE253C521D3DB8EF005E6390 /* AppDelegate.m */,
 				FE253C541D3DB8EF005E6390 /* ViewController.h */,
 				FE253C551D3DB8EF005E6390 /* ViewController.m */,
+				FE253C661D3DCCBD005E6390 /* XQBaseController.h */,
+				FE253C671D3DCCBD005E6390 /* XQBaseController.m */,
+				FE253C651D3DCBC3005E6390 /* PrefixHeader.pch */,
 				FE253C571D3DB8EF005E6390 /* Main.storyboard */,
 				FE253C5A1D3DB8EF005E6390 /* Assets.xcassets */,
 				FE253C5C1D3DB8EF005E6390 /* LaunchScreen.storyboard */,
@@ -101,6 +112,15 @@
 				FE253C4F1D3DB8EF005E6390 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE253C691D3DCE63005E6390 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FE253C6A1D3DCEEF005E6390 /* RemakeContraintsController.h */,
+				FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE253C561D3DB8EF005E6390 /* ViewController.m in Sources */,
+				FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */,
+				FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */,
 				FE253C531D3DB8EF005E6390 /* AppDelegate.m in Sources */,
 				FE253C501D3DB8EF005E6390 /* main.m in Sources */,
 			);
@@ -339,6 +361,7 @@
 			baseConfigurationReference = 1E1E7C47B047DFD7000C1CE1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XQAuto/PrefixHeader.pch";
 				INFOPLIST_FILE = XQAuto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibazhuang.www.XQAuto;
@@ -351,6 +374,7 @@
 			baseConfigurationReference = 659218C64400BD24A0BAA8C9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XQAuto/PrefixHeader.pch";
 				INFOPLIST_FILE = XQAuto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nibazhuang.www.XQAuto;

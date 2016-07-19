@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XQBaseController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : XQBaseController
 
 
 @end
