@@ -17,6 +17,7 @@
 		FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C671D3DCCBD005E6390 /* XQBaseController.m */; };
 		FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */; };
 		FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */; };
+		FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBB1D3E0FC000752F66 /* CompositeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemakeContraintsController.m; sourceTree = "<group>"; };
 		FEC44CB71D3E00A500752F66 /* TotalUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalUpdateController.h; sourceTree = "<group>"; };
 		FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalUpdateController.m; sourceTree = "<group>"; };
+		FEC44CBA1D3E0FC000752F66 /* CompositeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
+		FEC44CBB1D3E0FC000752F66 /* CompositeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */,
 				FEC44CB71D3E00A500752F66 /* TotalUpdateController.h */,
 				FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */,
+				FEC44CBA1D3E0FC000752F66 /* CompositeController.h */,
+				FEC44CBB1D3E0FC000752F66 /* CompositeController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE253C561D3DB8EF005E6390 /* ViewController.m in Sources */,
+				FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */,
 				FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */,
 				FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */,
 				FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */,
