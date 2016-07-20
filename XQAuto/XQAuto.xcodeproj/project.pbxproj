@@ -18,6 +18,7 @@
 		FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */; };
 		FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */; };
 		FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBB1D3E0FC000752F66 /* CompositeController.m */; };
+		FEC44CBF1D3E2B6F00752F66 /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalUpdateController.m; sourceTree = "<group>"; };
 		FEC44CBA1D3E0FC000752F66 /* CompositeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
 		FEC44CBB1D3E0FC000752F66 /* CompositeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompositeController.m; sourceTree = "<group>"; };
+		FEC44CBD1D3E2B6F00752F66 /* AspectFitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AspectFitController.h; sourceTree = "<group>"; };
+		FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AspectFitController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */,
 				FEC44CBA1D3E0FC000752F66 /* CompositeController.h */,
 				FEC44CBB1D3E0FC000752F66 /* CompositeController.m */,
+				FEC44CBD1D3E2B6F00752F66 /* AspectFitController.h */,
+				FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */,
 				FE253C531D3DB8EF005E6390 /* AppDelegate.m in Sources */,
 				FE253C501D3DB8EF005E6390 /* main.m in Sources */,
+				FEC44CBF1D3E2B6F00752F66 /* AspectFitController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
