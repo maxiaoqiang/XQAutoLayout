@@ -13,6 +13,7 @@
 #import "AspectFitController.h"
 #import "BaseAnimatedController.h"
 #import "ScrollViewController.h"
+#import "ScrollViewComplexController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
@@ -35,7 +36,7 @@
         make.edges.mas_equalTo(self.view);
     }];
 
-    self.controllers = @[[[RemakeContraintsController alloc]initWithTitle:@"动画重新添加约束"],[[TotalUpdateController alloc]initWithTitle:@"整体动画更新约束"],[[CompositeController alloc]initWithTitle:@"复合View循环约束"],[[AspectFitController alloc]initWithTitle:@"约束百分比"],[[BaseAnimatedController alloc]initWithTitle:@"基本动画"],[[ScrollViewController alloc]initWithTitle:@"ScrollView布局"],];
+    self.controllers = @[[[RemakeContraintsController alloc]initWithTitle:@"动画重新添加约束"],[[TotalUpdateController alloc]initWithTitle:@"整体动画更新约束"],[[CompositeController alloc]initWithTitle:@"复合View循环约束"],[[AspectFitController alloc]initWithTitle:@"约束百分比"],[[BaseAnimatedController alloc]initWithTitle:@"基本动画"],[[ScrollViewController alloc]initWithTitle:@"ScrollView布局"],[[ScrollViewComplexController alloc]initWithTitle:@"复杂ScrollView"],];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
