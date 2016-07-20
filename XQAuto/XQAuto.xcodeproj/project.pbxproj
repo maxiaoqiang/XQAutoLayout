@@ -16,6 +16,7 @@
 		FE253C5E1D3DB8EF005E6390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE253C5C1D3DB8EF005E6390 /* LaunchScreen.storyboard */; };
 		FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C671D3DCCBD005E6390 /* XQBaseController.m */; };
 		FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */; };
+		FE7695AB1D3F1AA6003EFC9D /* BaseAnimatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695AA1D3F1AA6003EFC9D /* BaseAnimatedController.m */; };
 		FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */; };
 		FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBB1D3E0FC000752F66 /* CompositeController.m */; };
 		FEC44CBF1D3E2B6F00752F66 /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */; };
@@ -40,6 +41,8 @@
 		FE253C671D3DCCBD005E6390 /* XQBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQBaseController.m; sourceTree = "<group>"; };
 		FE253C6A1D3DCEEF005E6390 /* RemakeContraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemakeContraintsController.h; sourceTree = "<group>"; };
 		FE253C6B1D3DCEEF005E6390 /* RemakeContraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemakeContraintsController.m; sourceTree = "<group>"; };
+		FE7695A91D3F1AA6003EFC9D /* BaseAnimatedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimatedController.h; sourceTree = "<group>"; };
+		FE7695AA1D3F1AA6003EFC9D /* BaseAnimatedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimatedController.m; sourceTree = "<group>"; };
 		FEC44CB71D3E00A500752F66 /* TotalUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalUpdateController.h; sourceTree = "<group>"; };
 		FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalUpdateController.m; sourceTree = "<group>"; };
 		FEC44CBA1D3E0FC000752F66 /* CompositeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				FEC44CBB1D3E0FC000752F66 /* CompositeController.m */,
 				FEC44CBD1D3E2B6F00752F66 /* AspectFitController.h */,
 				FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */,
+				FE7695A91D3F1AA6003EFC9D /* BaseAnimatedController.h */,
+				FE7695AA1D3F1AA6003EFC9D /* BaseAnimatedController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 				FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */,
 				FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */,
 				FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */,
+				FE7695AB1D3F1AA6003EFC9D /* BaseAnimatedController.m in Sources */,
 				FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */,
 				FE253C531D3DB8EF005E6390 /* AppDelegate.m in Sources */,
 				FE253C501D3DB8EF005E6390 /* main.m in Sources */,
