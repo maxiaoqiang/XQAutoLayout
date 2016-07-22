@@ -19,6 +19,8 @@
 		FE7695AB1D3F1AA6003EFC9D /* BaseAnimatedController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695AA1D3F1AA6003EFC9D /* BaseAnimatedController.m */; };
 		FE7695AE1D3F2A3C003EFC9D /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695AD1D3F2A3C003EFC9D /* ScrollViewController.m */; };
 		FE7695B11D3F529F003EFC9D /* ScrollViewComplexController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695B01D3F529F003EFC9D /* ScrollViewComplexController.m */; };
+		FE7695B41D3F6505003EFC9D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695B31D3F6505003EFC9D /* TableViewController.m */; };
+		FE7695B71D3F658C003EFC9D /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7695B61D3F658C003EFC9D /* TestCell.m */; };
 		FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */; };
 		FEC44CBC1D3E0FC000752F66 /* CompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBB1D3E0FC000752F66 /* CompositeController.m */; };
 		FEC44CBF1D3E2B6F00752F66 /* AspectFitController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC44CBE1D3E2B6F00752F66 /* AspectFitController.m */; };
@@ -49,6 +51,10 @@
 		FE7695AD1D3F2A3C003EFC9D /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 		FE7695AF1D3F529F003EFC9D /* ScrollViewComplexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewComplexController.h; sourceTree = "<group>"; };
 		FE7695B01D3F529F003EFC9D /* ScrollViewComplexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewComplexController.m; sourceTree = "<group>"; };
+		FE7695B21D3F6505003EFC9D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FE7695B31D3F6505003EFC9D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FE7695B51D3F658C003EFC9D /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		FE7695B61D3F658C003EFC9D /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 		FEC44CB71D3E00A500752F66 /* TotalUpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalUpdateController.h; sourceTree = "<group>"; };
 		FEC44CB81D3E00A500752F66 /* TotalUpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalUpdateController.m; sourceTree = "<group>"; };
 		FEC44CBA1D3E0FC000752F66 /* CompositeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeController.h; sourceTree = "<group>"; };
@@ -149,6 +155,10 @@
 				FE7695AD1D3F2A3C003EFC9D /* ScrollViewController.m */,
 				FE7695AF1D3F529F003EFC9D /* ScrollViewComplexController.h */,
 				FE7695B01D3F529F003EFC9D /* ScrollViewComplexController.m */,
+				FE7695B21D3F6505003EFC9D /* TableViewController.h */,
+				FE7695B31D3F6505003EFC9D /* TableViewController.m */,
+				FE7695B51D3F658C003EFC9D /* TestCell.h */,
+				FE7695B61D3F658C003EFC9D /* TestCell.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -279,8 +289,10 @@
 				FE253C6C1D3DCEEF005E6390 /* RemakeContraintsController.m in Sources */,
 				FE253C681D3DCCBD005E6390 /* XQBaseController.m in Sources */,
 				FE7695AB1D3F1AA6003EFC9D /* BaseAnimatedController.m in Sources */,
+				FE7695B71D3F658C003EFC9D /* TestCell.m in Sources */,
 				FE7695AE1D3F2A3C003EFC9D /* ScrollViewController.m in Sources */,
 				FEC44CB91D3E00A500752F66 /* TotalUpdateController.m in Sources */,
+				FE7695B41D3F6505003EFC9D /* TableViewController.m in Sources */,
 				FE253C531D3DB8EF005E6390 /* AppDelegate.m in Sources */,
 				FE253C501D3DB8EF005E6390 /* main.m in Sources */,
 				FE7695B11D3F529F003EFC9D /* ScrollViewComplexController.m in Sources */,
