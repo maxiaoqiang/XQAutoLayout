@@ -16,6 +16,7 @@
 #import "ScrollViewComplexController.h"
 #import "TableViewController.h"
 
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic, strong) NSArray *controllers;
@@ -37,7 +38,7 @@
         make.edges.mas_equalTo(self.view);
     }];
 
-    self.controllers = @[[[RemakeContraintsController alloc]initWithTitle:@"动画重新添加约束"],[[TotalUpdateController alloc]initWithTitle:@"整体动画更新约束"],[[CompositeController alloc]initWithTitle:@"复合View循环约束"],[[AspectFitController alloc]initWithTitle:@"约束百分比"],[[BaseAnimatedController alloc]initWithTitle:@"基本动画"],[[ScrollViewController alloc]initWithTitle:@"ScrollView布局"],[[ScrollViewComplexController alloc]initWithTitle:@"复杂ScrollView"],[[TableViewController alloc]initWithTitle:@"复杂ScrollView"],];
+    self.controllers = @[[[RemakeContraintsController alloc]initWithTitle:@"动画重新添加约束"],[[TotalUpdateController alloc]initWithTitle:@"整体动画更新约束"],[[CompositeController alloc]initWithTitle:@"复合View循环约束"],[[AspectFitController alloc]initWithTitle:@"约束百分比"],[[BaseAnimatedController alloc]initWithTitle:@"基本动画"],[[ScrollViewController alloc]initWithTitle:@"ScrollView布局"],[[ScrollViewComplexController alloc]initWithTitle:@"复杂ScrollView"],[[TableViewController alloc]initWithTitle:@"TableView布局"],];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
